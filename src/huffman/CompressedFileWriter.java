@@ -26,6 +26,7 @@ public class CompressedFileWriter extends BitOutputStream {
 	 * @param inputFile The name of the file to be compressed
 	 * @param encodingArray The table containing each character's binary code
 	 * @param programNumber The program's ID
+	 * @param nonZeroCharacters The number of non-zero-frequency characters in the file
 	 * @throws IOException If there is an error with any file
 	 */
 	public CompressedFileWriter(String outputFile, String inputFile, String[] encodingArray, int programNumber, int nonZeroCharacters) throws IOException{

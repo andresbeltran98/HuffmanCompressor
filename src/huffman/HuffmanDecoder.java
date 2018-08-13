@@ -23,7 +23,6 @@ public class HuffmanDecoder {
 	 * Initializes the Decoder
 	 * @param inputFile The name of the compressed file
 	 * @param magicNumber The program's ID
-	 * @param nonZeroCharacters Number of distinct characters for the <code>inputFile</code>
 	 * @throws IOException If there is an error with the file
 	 */
 	public HuffmanDecoder(String inputFile, int magicNumber) throws IOException {

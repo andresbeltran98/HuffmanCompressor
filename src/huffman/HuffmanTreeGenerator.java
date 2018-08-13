@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class HuffmanTreeGenerator {
 	
 	/**
-	 * Generates the Huffman Tree -> O(NlogN)
+	 * Generates the Huffman Tree O(NlogN)
 	 * @param list The list of HuffmanNodes
 	 * @return The root of the generated tree
 	 */
@@ -92,7 +92,7 @@ public class HuffmanTreeGenerator {
 	
 	/**
 	 * Sift Up
-	 * @param listNodes
+	 * @param listNodes A list with all the nodes that will be in the tree
 	 * @param i The index of the node to be sifted up
 	 */
 	private static void siftUp(ArrayList<HuffmanNode> listNodes, int i){
