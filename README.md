@@ -28,6 +28,10 @@ java -jar Huffman.jar decompress [compressedfile.txt] [originalfile.txt]
 java -jar Huffman.jar decompress CompressedFile.txt OriginalFile.txt
 ```
 
+## Documentation
+Documentation is offered under docs/index.html <br>
+Or you can see it [here](http://htmlpreview.github.io/?https://github.com/andresbeltran98/HuffmanCompressor/blob/master/doc/index.html)
+
 ## Author
 * Andres Beltran - B.S. Computer Science candidate. CWRU 2021
 
